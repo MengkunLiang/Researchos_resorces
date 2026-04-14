@@ -1,60 +1,48 @@
 # 科研 Agent 系统
 
-这一页聚焦“研究型工作流系统”和“科研闭环参考对象”。如果你想搭 `ResearchOS / AutoLab / FlowAssist` 这种系统，这一页是最重要的参考材料之一。
+本页从系统视角整理“科研型 Agent”生态。相比单纯收集框架，这里更关注已经把 `检索 -> 阅读 -> 想法生成 -> 实验 -> 写作 -> 评测` 串成链路的系统、项目和研究原型。
 
-## 1. 直接可用的科研工作台 / 系统
+## 1. 科研 Agent 版图
 
-| 资源 | 定位 | 简述 | 链接 |
-| --- | --- | --- | --- |
-| Open Research | 研究工作台 | 强调 “research director in terminal”，带有 novelty-check、source scout、paper explainer、reviewer response 等能力。 | [open-research.info](https://www.open-research.info/) |
-| RTI | 文献工作流系统 | 把“方向输入 -> 检索 -> 摘要点评 -> 选论文 -> 翻译 -> 深度分析”串成完整流程。 | [yrc-better/RTI](https://github.com/yrc-better/RTI) |
-| PaperQA2 | 科学文献问答 | 面向科学文献的高精度 RAG，对论文问答、证据引用和总结很实用。 | [Future-House/paper-qa](https://github.com/Future-House/paper-qa) |
-| Robin | 科学发现多 Agent | Future House 的科学发现多 Agent 系统，更适合作为“高度自动化”参考对象。 | [Future-House/robin](https://github.com/Future-House/robin) |
-| OpenDraft | 学术长文写作系统 | 面向 thesis / paper 的多 Agent 写作框架，适合写作与整理阶段。 | [federicodeponte/academic-thesis-ai](https://github.com/federicodeponte/academic-thesis-ai) |
-| AI Co-Scientist | idea 生成系统 | Google Research 的公开系统页面，适合参考“问题提出、反思、排序、证据回查”的架构。 | [Google Research Blog](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/) |
-
-## 2. 闭环自动科研的关键参考对象
-
-| 资源 | 定位 | 简述 | 链接 |
-| --- | --- | --- | --- |
-| AI-Scientist-v2 | 自主科研闭环 | Sakana AI 的自动科研系统，覆盖从研究方向到实验与写作的完整链路。 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) |
-| AI Scientist Nature 页面 | 论文主页 | 更适合从系统级视角理解 AI Scientist 的设计目标和研究叙事。 | [Sakana AI 页面](https://sakana.ai/ai-scientist-nature/) |
-| Dolphin | 闭环科研论文 | 强调 `Thinking -> Practice -> Feedback` 的自动科研闭环。 | [ACL Anthology](https://aclanthology.org/2025.acl-long.1056/) |
-| ResearchAgent | ideation + reviewing | 在 idea 阶段引入 ReviewingAgents 的思路，适合借鉴审稿人式自纠。 | [ACL Anthology](https://aclanthology.org/2025.naacl-long.342/) |
-| VirSci | 多 Agent 研究想法生成 | 强调多 Agent 协作生成、评价、修正 research ideas。 | [ACL Anthology](https://aclanthology.org/2025.acl-long.1368/) |
-| HypoGeniC | hypothesis generation | 更偏“从观测数据出发生成并检验假设”的系统范式。 | [项目页](https://chicagohai.github.io/hypogenic-demo/) |
-| llm4novelty / NovBench | novelty 评测资源 | 更适合作为 novelty assessment 模块的 benchmark 入口，而不是单纯系统 demo。 | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
-
-## 3. novelty / reviewing 这一条线值得单列看
-
-如果你们的核心研究之一是 `idea generation + novelty assessment`，下面这些资源不要只当补充链接，它们本身就可以单独组成一条子系统：
-
-| 资源 | 价值 | 链接 |
+| 类型 | 代表资源 | 简述 |
 | --- | --- | --- |
-| llm4novelty | 直接做 novelty assessment benchmark | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
-| ReviewAdvisor | 审稿与 novelty 结构化参考 | [neulab/ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) |
-| NLPeer | 公开 peer review 数据 | [UKPLab/nlpeer](https://github.com/UKPLab/nlpeer) |
-| OpenReview | 顶会审稿与讨论入口 | [OpenReview](https://openreview.net/) |
+| Deep Research 与研究工作台 | [Open Research](https://www.open-research.info/)、[RTI](https://github.com/yrc-better/RTI)、[PaperQA2](https://github.com/Future-House/paper-qa)、[STORM](https://github.com/stanford-oval/storm)、[Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)、[GPT Researcher](https://github.com/assafelovic/gpt-researcher)、[ResearStudio](https://github.com/ResearAI/ResearStudio) | 强调文献检索、证据汇总、长报告生成、可编辑研究计划与协作式深度研究。 |
+| 自动科研与自主闭环 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)、[microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)、[AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)、[Future-House/robin](https://github.com/Future-House/robin)、[The Station](https://github.com/dualverse-ai/station) | 强调从研究问题到实验执行、结果反馈与迭代修正的完整闭环。 |
+| 想法生成 / novelty / review | [AI Co-Scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)、[ResearchAgent](https://aclanthology.org/2025.naacl-long.342/)、[VirSci](https://aclanthology.org/2025.acl-long.1368/)、[HypoGeniC](https://github.com/ChicagoHAI/hypothesis-generation)、[llm4novelty](https://github.com/njust-winchy/llm4novelty)、[ReviewAdvisor](https://github.com/neulab/ReviewAdvisor) | 关注课题空白识别、想法扩散、审稿人式自检与新颖性评估。 |
+| 代码执行与实验代理 | [OpenHands](https://github.com/OpenHands/OpenHands)、[OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk)、[google/adk-python](https://github.com/google/adk-python) | 偏向代码库操作、实验实现、工具调用和可扩展代理执行环境。 |
+| 协作式科研基础设施 | [AgentRxiv](https://agentrxiv.github.io/)、[OpenReview](https://openreview.net/)、[NLPeer](https://github.com/UKPLab/nlpeer) | 支撑跨代理共享成果、同行评审模拟和审稿数据挖掘。 |
 
-## 4. 适合拆到 ResearchOS 各模块的参考点
+## 2. 从哪几页继续展开
 
-| 模块 | 最值得参考的资源 | 为什么 |
+| 页面 | 适合关注的重点 |
+| --- | --- |
+| [自动科研与闭环系统](./自动科研与闭环系统.md) | `AI-Scientist-v2 / RD-Agent / AgentLaboratory / Robin / Station` 这一条“自主研究闭环”主线。 |
+| [Deep Research与研究工作台](./Deep%20Research与研究工作台.md) | `Open Research / STORM / DeepResearch / GPT Researcher / ResearStudio` 这一条“深度检索与研究工作台”主线。 |
+| [科研工作流设计模式](./科研工作流设计模式.md) | 把系统拆到模块级：文献扫描、证据卡片、novelty 审计、实验执行、写作与 rebuttal。 |
+| [通用Agent框架](./通用Agent框架.md) | 编排、状态机、结构化输出、工具调用、生产化框架的底座选择。 |
+
+## 3. 面向 ResearchOS 的组合视角
+
+| 目标链路 | 适合优先参考的资源 | 说明 |
 | --- | --- | --- |
-| 文献普查 | `RTI`、`PaperQA2`、`Open Research` | 这几类项目最能体现“检索 + 精读 + 结构化整理”的实际价值。 |
-| idea 与 novelty | `AI Co-Scientist`、`llm4novelty`、`ResearchAgent`、`VirSci` | 更适合借鉴“如何让系统自己找空白、再做审计”的机制。 |
-| 自主闭环 | `AI-Scientist-v2`、`Dolphin` | 适合借鉴状态机、反馈回路、实验修正逻辑。 |
-| 写作与答辩 | `OpenDraft`、`Open Research` | 更适合后半程的论文输出、review response 和转投辅助。 |
+| 文献综述与 landscape | `RTI`、`Open Research`、`PaperQA2`、`STORM`、`GPT Researcher` | 适合搭建“搜索、证据抽取、引用汇总、长报告生成”这一段前链路。 |
+| novelty 与 idea 生成 | `AI Co-Scientist`、`HypoGeniC`、`ResearchAgent`、`VirSci`、`llm4novelty`、`ReviewAdvisor` | 适合构造“研究空白发现、候选想法扩展、审稿式自检”的中段流程。 |
+| 自动实验与数据科学闭环 | `RD-Agent`、`AgentLaboratory`、`AI-Scientist-v2`、`OpenHands SDK` | 适合搭建“实验计划 -> 代码实现 -> 运行反馈 -> 结果修正”的执行环。 |
+| 生物医药 / 科学发现 | `Robin`、`Station`、`Aviary`、`LAB-Bench`、`BixBench` | 更贴近科学发现、实验推理和领域型 agent 评测。 |
+| 写作、审稿与转投 | `Open Research`、`OpenDraft`、`OpenReview`、[模板迁移与投稿](../07-模板与投稿/模板迁移与投稿.md) | 适合覆盖草稿生成、review response、模板迁移与投稿后链路。 |
 
-## 5. 我的建议
+## 4. 观察这些系统时最值得抽象出来的公共结构
 
-如果你要做一个真正可落地的 ResearchOS，不建议把某一个现成系统整包照搬，而是更适合这样组合：
+1. `研究计划显式化`：把 query plan、子问题树、搜索日志和证据卡片做成单独 artifact，而不是只保留聊天上下文。
+2. `执行与评测解耦`：实验执行器、代码代理、评测器、审稿代理最好是分层组件，便于替换和审计。
+3. `证据链优先`：科研系统和通用对话系统最大的差别，通常不在“会不会对话”，而在“能否回到论文、数据、代码和日志”。
+4. `人机协同节点`：在课题定义、实验方案冻结、结果归因和投稿输出前设置人工 gate，通常比完全放权更稳。
+5. `共享记忆与持续积累`：AgentRxiv、OpenReview、Zotero、实验追踪系统共同指向一个趋势，即科研代理越来越依赖可复用知识资产。
 
-1. 用 `RTI + PaperQA2 + arxiv-translator` 搭文献层
-2. 用 `OpenReview MCP + OpenAlex MCP` 搭 novelty / latest paper 层
-3. 用 `AI-Scientist-v2 / Dolphin / AI Co-Scientist / ResearchAgent / VirSci` 提供闭环机制参考
-4. 用 `OpenDraft + Auto-Resubmit` 处理写作与投稿末端
+## 5. 延伸阅读
 
-也就是说，比较稳的路线通常不是“找一个全能系统”，而是“拆出最强的几段链路自己拼”。
-
-如果你要继续深挖这个方向，建议同时看专题页：
-[科研新颖性与Idea生成](../09-方向专题/科研新颖性与Idea生成.md)
+- [自动科研与闭环系统](./自动科研与闭环系统.md)
+- [Deep Research与研究工作台](./Deep%20Research与研究工作台.md)
+- [科研工作流设计模式](./科研工作流设计模式.md)
+- [科研新颖性与Idea生成](../09-方向专题/科研新颖性与Idea生成.md)
+- [评测与Benchmark](../06-实验与评测/评测与Benchmark.md)
