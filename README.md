@@ -1,6 +1,6 @@
 # ResearchOS Resources
 
-更新时间：2026-04-14
+更新时间：2026-04-15
 
 这是一个面向 AI 辅助科研的公开资源整理仓库，重点聚焦以下几类内容：
 
@@ -17,9 +17,17 @@
 
 - [00-总览/资源地图.md](./00-总览/资源地图.md)
 - [01-Skills/Skills标准与生态.md](./01-Skills/Skills标准与生态.md)
+- [01-Skills/跨平台宿主与官方技能库.md](./01-Skills/跨平台宿主与官方技能库.md)
+- [01-Skills/Skill发现平台与精品合集.md](./01-Skills/Skill发现平台与精品合集.md)
 - [01-Skills/科研向Skills合集.md](./01-Skills/科研向Skills合集.md)
+- [01-Skills/科研工程与实验Skills.md](./01-Skills/科研工程与实验Skills.md)
+- [01-Skills/科研写作与文献Skills.md](./01-Skills/科研写作与文献Skills.md)
+- [01-Skills/科学计算与领域Skills.md](./01-Skills/科学计算与领域Skills.md)
 - [02-MCP/MCP标准与发现平台.md](./02-MCP/MCP标准与发现平台.md)
 - [02-MCP/科研常用MCP清单.md](./02-MCP/科研常用MCP清单.md)
+- [02-MCP/文献检索与知识库MCP.md](./02-MCP/文献检索与知识库MCP.md)
+- [02-MCP/实验执行与数据工程MCP.md](./02-MCP/实验执行与数据工程MCP.md)
+- [02-MCP/生物医药与专利MCP.md](./02-MCP/生物医药与专利MCP.md)
 - [03-科研工作流与Agent/科研Agent系统.md](./03-科研工作流与Agent/科研Agent系统.md)
 - [03-科研工作流与Agent/通用Agent框架.md](./03-科研工作流与Agent/通用Agent框架.md)
 - [04-Prompt与写作/Prompt库与教程.md](./04-Prompt与写作/Prompt库与教程.md)
@@ -38,8 +46,8 @@
 
 | 任务 | 先看哪些文件 |
 | --- | --- |
-| 想给科研 Agent 配能力 | [Skills标准与生态](./01-Skills/Skills标准与生态.md)、[科研向Skills合集](./01-Skills/科研向Skills合集.md) |
-| 想给系统接科研工具 | [MCP标准与发现平台](./02-MCP/MCP标准与发现平台.md)、[科研常用MCP清单](./02-MCP/科研常用MCP清单.md) |
+| 想给科研 Agent 配能力 | [Skills标准与生态](./01-Skills/Skills标准与生态.md)、[跨平台宿主与官方技能库](./01-Skills/跨平台宿主与官方技能库.md)、[Skill发现平台与精品合集](./01-Skills/Skill发现平台与精品合集.md)、[科研向Skills合集](./01-Skills/科研向Skills合集.md) |
+| 想给系统接科研工具 | [MCP标准与发现平台](./02-MCP/MCP标准与发现平台.md)、[科研常用MCP清单](./02-MCP/科研常用MCP清单.md)、[文献检索与知识库MCP](./02-MCP/文献检索与知识库MCP.md)、[实验执行与数据工程MCP](./02-MCP/实验执行与数据工程MCP.md)、[生物医药与专利MCP](./02-MCP/生物医药与专利MCP.md) |
 | 想设计 ResearchOS / AutoLab / FlowAssist | [资源地图](./00-总览/资源地图.md)、[科研Agent系统](./03-科研工作流与Agent/科研Agent系统.md) |
 | 想做文献检索、深读、知识库 | [文献检索与阅读](./05-文献检索与知识管理/文献检索与阅读.md)、[知识管理与引用](./05-文献检索与知识管理/知识管理与引用.md) |
 | 想做实验、复现、评测 | [实验执行与复现](./06-实验与评测/实验执行与复现.md)、[评测与Benchmark](./06-实验与评测/评测与Benchmark.md) |
@@ -61,5 +69,5 @@
 
 - 不建议一上来就把所有资源都接进系统。先选一条主链路打通。
 - 推荐最小可用闭环：`paper-search-mcp + openreview/openreview-mcp + hbiaou/openalex-mcp + arxiv-translator + paper-qa + Zotero + Auto-Resubmit`。
-- 如果你们重点做 AI/ML、data mining 或 novelty 研究，建议直接补看 `09-方向专题` 里的三页。
+- 对 AI/ML、data mining 或 novelty 相关方向，建议直接补看 `09-方向专题` 里的三页。
 - 对 MCP 和自动写作工具，默认采用最小权限、人工 gate、证据留痕三件套。
