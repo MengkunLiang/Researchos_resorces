@@ -9,6 +9,7 @@
 - 科研工作流、研究型 Agent 与开源编排框架
 - Prompt 库、学术写作、文献检索、知识管理
 - 实验执行、复现、评测与投稿辅助
+- AI/ML、data mining、novelty assessment 与 computational design science 专题资源
 
 仓库目标不是单纯堆链接，而是尽量给出一层“可落地的 ResearchOS 视角分类”：你可以直接按任务选工具，也可以按系统层级选底座。
 
@@ -29,6 +30,9 @@
 - [06-实验与评测/评测与Benchmark.md](./06-实验与评测/评测与Benchmark.md)
 - [07-模板与投稿/模板迁移与投稿.md](./07-模板与投稿/模板迁移与投稿.md)
 - [08-安全与治理/安全治理与最佳实践.md](./08-安全与治理/安全治理与最佳实践.md)
+- [09-方向专题/科研新颖性与Idea生成.md](./09-方向专题/科研新颖性与Idea生成.md)
+- [09-方向专题/AI-ML-DataMining资源.md](./09-方向专题/AI-ML-DataMining资源.md)
+- [09-方向专题/Computational-Design-Science与管理技术交叉.md](./09-方向专题/Computational-Design-Science与管理技术交叉.md)
 
 ## 按任务快速入口
 
@@ -41,12 +45,15 @@
 | 想做实验、复现、评测 | [实验执行与复现](./06-实验与评测/实验执行与复现.md)、[评测与Benchmark](./06-实验与评测/评测与Benchmark.md) |
 | 想写论文、写 rebuttal、转投 | [Prompt库与教程](./04-Prompt与写作/Prompt库与教程.md)、[学术写作与审稿](./04-Prompt与写作/学术写作与审稿.md)、[模板迁移与投稿](./07-模板与投稿/模板迁移与投稿.md) |
 | 想减少工具风险、做治理 | [安全治理与最佳实践](./08-安全与治理/安全治理与最佳实践.md) |
+| 想做 novelty 判断、idea generation、review mining | [科研新颖性与Idea生成](./09-方向专题/科研新颖性与Idea生成.md)、[科研Agent系统](./03-科研工作流与Agent/科研Agent系统.md) |
+| 想补 AI/ML/data mining 资源池 | [AI-ML-DataMining资源](./09-方向专题/AI-ML-DataMining资源.md)、[评测与Benchmark](./06-实验与评测/评测与Benchmark.md) |
+| 想做管理+技术交叉 / computational design science | [Computational-Design-Science与管理技术交叉](./09-方向专题/Computational-Design-Science与管理技术交叉.md)、[资源地图](./00-总览/资源地图.md) |
 
 ## 收录原则
 
 - 优先官方文档、官方仓库、论文主页和长期维护项目。
 - 优先能直接服务“科研工作流”的资源，而不是泛泛的 AI 工具列表。
-- 中文说明优先，但链接既包含中文也包含英文公开资源。
+- 仓库说明以中文为主，但收录资源以全球公开资源为主，英文和中文链接都会纳入。
 - 对社区实现较多的方向（尤其是 MCP），优先挑选“官方 / 活跃 / 可复用”的实现。
 - 对非完全开源但公开可用的平台，会显式标注为“平台”或“公共服务”。
 
@@ -54,4 +61,5 @@
 
 - 不建议一上来就把所有资源都接进系统。先选一条主链路打通。
 - 推荐最小可用闭环：`paper-search-mcp + openreview/openreview-mcp + hbiaou/openalex-mcp + arxiv-translator + paper-qa + Zotero + Auto-Resubmit`。
+- 如果你们重点做 AI/ML、data mining 或 novelty 研究，建议直接补看 `09-方向专题` 里的三页。
 - 对 MCP 和自动写作工具，默认采用最小权限、人工 gate、证据留痕三件套。
