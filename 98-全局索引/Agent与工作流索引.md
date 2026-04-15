@@ -1,11 +1,18 @@
 # Agent 与工作流索引
 
-## 仓库内详细页
+## 先看哪些任务模块
 
-- [03-科研工作流与Agent/科研Agent系统](../03-科研工作流与Agent/科研Agent系统.md)
-- [03-科研工作流与Agent/自动科研与闭环系统](../03-科研工作流与Agent/自动科研与闭环系统.md)
-- [03-科研工作流与Agent/Deep Research与研究工作台](../03-科研工作流与Agent/Deep%20Research与研究工作台.md)
-- [03-科研工作流与Agent/科研工作流设计模式](../03-科研工作流与Agent/科研工作流设计模式.md)
+- [01-课题扫描与选题](../01-课题扫描与选题/README.md)
+- [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)
+- [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
+- [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)
+
+## 类型附录详细页
+
+- [93-科研工作流与Agent/科研Agent系统](../93-科研工作流与Agent/科研Agent系统.md)
+- [93-科研工作流与Agent/自动科研与闭环系统](../93-科研工作流与Agent/自动科研与闭环系统.md)
+- [93-科研工作流与Agent/Deep Research与研究工作台](../93-科研工作流与Agent/Deep%20Research与研究工作台.md)
+- [93-科研工作流与Agent/科研工作流设计模式](../93-科研工作流与Agent/科研工作流设计模式.md)
 
 ## 高频公开资源
 
@@ -14,4 +21,6 @@
 - [PaperQA2](https://github.com/Future-House/paper-qa)
 - [RD-Agent](https://github.com/microsoft/RD-Agent)
 - [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)
-- [STORM](https://github.com/stanford-oval/storm)
+- [AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)
+- [hkust-nlp/Toolathlon](https://github.com/hkust-nlp/Toolathlon)
+- [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard)

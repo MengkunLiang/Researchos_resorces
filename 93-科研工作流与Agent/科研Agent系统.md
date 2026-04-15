@@ -29,7 +29,7 @@
 | novelty 与 idea 生成 | `AI Co-Scientist`、`HypoGeniC`、`ResearchAgent`、`VirSci`、`llm4novelty`、`ReviewAdvisor` | 适合构造“研究空白发现、候选想法扩展、审稿式自检”的中段流程。 |
 | 自动实验与数据科学闭环 | `RD-Agent`、`AgentLaboratory`、`AI-Scientist-v2`、`OpenHands SDK` | 适合搭建“实验计划 -> 代码实现 -> 运行反馈 -> 结果修正”的执行环。 |
 | 生物医药 / 科学发现 | `Robin`、`Station`、`Aviary`、`LAB-Bench`、`BixBench` | 更贴近科学发现、实验推理和领域型 agent 评测。 |
-| 写作、审稿与转投 | `Open Research`、`OpenDraft`、`OpenReview`、[模板迁移与投稿](../07-模板与投稿/模板迁移与投稿.md) | 适合覆盖草稿生成、review response、模板迁移与投稿后链路。 |
+| 写作、审稿与转投 | `Open Research`、`OpenDraft`、`OpenReview`、[模板迁移与投稿](../97-模板与投稿/模板迁移与投稿.md) | 适合覆盖草稿生成、review response、模板迁移与投稿后链路。 |
 
 ## 4. 观察这些系统时最值得抽象出来的公共结构
 
@@ -45,4 +45,4 @@
 - [Deep Research与研究工作台](./Deep%20Research与研究工作台.md)
 - [科研工作流设计模式](./科研工作流设计模式.md)
 - [科研新颖性与Idea生成](../09-方向专题/科研新颖性与Idea生成.md)
-- [评测与Benchmark](../06-实验与评测/评测与Benchmark.md)
+- [评测与Benchmark](../96-实验与评测/评测与Benchmark.md)
