@@ -17,6 +17,29 @@
 - [94-Prompt与写作/系统综述与证据综合](../94-Prompt与写作/系统综述与证据综合.md)
 - [01-课题扫描与选题](../01-课题扫描与选题/README.md)
 
+## 最小工具栈
+
+1. `Paper Search MCP + OpenAlex MCP + OpenReview MCP`
+   适合先搭建 broad search、landscape 和 reviewer 语境。
+2. `paper-glance-skill + literature-review + scientific-critical-thinking`
+   适合把核心论文拆成统一结构，并快速拉出差异点和逻辑链。
+3. `llm4novelty / NovBench + ReviewAdvisor + NLPeer`
+   适合做 novelty 判断、review mining 和 reviewer-style critique。
+4. `SciFact / PeerQA / SciDQA + scite`
+   适合继续做 claim 证据核验、review question answering 和引用语境判断。
+
+## 高频公开资源
+
+| 资源 | 类型 | 更适合的用途 | 链接 |
+| --- | --- | --- | --- |
+| llm4novelty / NovBench | novelty benchmark | 学术论文新颖性评估、novelty ranking 与基线比较。 | [njust-winchy/llm4novelty](https://github.com/njust-winchy/llm4novelty) |
+| OpenReview | 开放评审平台 | 追 review、rebuttal、discussion 和 reviewer 语境。 | [OpenReview](https://openreview.net/) |
+| PeerRead / PeerQA / PeerSum | peer review 数据集 | 适合做 review mining、question answering 和 meta-review 任务。 | [allenai/PeerRead](https://github.com/allenai/PeerRead)、[UKPLab/PeerQA](https://github.com/UKPLab/PeerQA)、[oaimli/PeerSum](https://huggingface.co/datasets/oaimli/PeerSum) |
+| ReviewAdvisor / NLPeer | 审稿分析工具与语料 | 适合 reviewer concern 抽取、review style 分析和 critique 建模。 | [neulab/ReviewAdvisor](https://github.com/neulab/ReviewAdvisor)、[UKPLab/nlpeer](https://github.com/UKPLab/nlpeer) |
+| SciFact / SciDQA | 科学证据核验与 reviewer QA | 适合做 claim verification、review-style question answering 和证据核查。 | [allenai/scifact](https://github.com/allenai/scifact)、[yale-nlp/SciDQA](https://github.com/yale-nlp/SciDQA) |
+| ASReview / SYNERGY Dataset | systematic review 工具与数据集 | 适合做高量文献筛选、study selection 和 active review。 | [asreview/asreview](https://github.com/asreview/asreview)、[asreview/synergy-dataset](https://github.com/asreview/synergy-dataset) |
+| scite / Elicit / Consensus | 引用语境与 evidence synthesis | 适合看 citation context、形成 evidence map 和快速综述。 | [scite](https://scite.ai/)、[Elicit](https://elicit.com/)、[Consensus](https://consensus.app/) |
+
 ## 一、相关 Skills
 
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |

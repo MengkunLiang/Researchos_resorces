@@ -26,8 +26,10 @@
 | --- | --- | --- | --- |
 | OpenCompass | 大模型评测平台 | 中文社区常用，适合做基线评估和模型对比。 | [open-compass/opencompass](https://github.com/open-compass/opencompass) |
 | lm-evaluation-harness | 语言模型评测 | 经典的 LLM benchmark 执行框架。 | [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) |
+| LightEval | 多后端评测框架 | 适合快速执行 Hugging Face 生态中的大量 benchmark 任务。 | [huggingface/lighteval](https://github.com/huggingface/lighteval) |
 | Ragas | RAG / workflow 评测 | 对文献问答、知识库检索和 RAG 系统评测很有参考价值。 | [Ragas](https://github.com/explodinggradients/ragas) |
 | HELM | 综合评测框架 | 适合做多维度、可解释和可复现的综合评测。 | [stanford-crfm/helm](https://github.com/stanford-crfm/helm) |
+| LiveCodeBench / BigCodeBench / DS-1000 | code 与 data science benchmark | 适合补代码能力、数据科学代码与真实函数调用评测。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)、[bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench)、[xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
 | AgentBoard | agent benchmark 合集 | 适合快速扫 agent 评测任务和榜单。 | [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard) |
 | Toolathlon | tool-use benchmark 合集 | 适合继续补工具调用和代理评测。 | [hkust-nlp/Toolathlon](https://github.com/hkust-nlp/Toolathlon) |
 | Papers with Code | 公开榜单与代码 | 适合做外部 baseline 对照和任务标准追踪。 | [Papers with Code](https://paperswithcode.com/) |
@@ -37,8 +39,11 @@
 | 方向 | 资源 | 为什么值得收录 | 链接 |
 | --- | --- | --- | --- |
 | tabular ML | OpenML | 开放任务、runs 和 suite 平台，是 tabular benchmark 的主入口之一。 | [OpenML](https://openml.io/) |
+| tabular ML | OpenML-CC18 | 常用的标准 tabular benchmark 套件之一。 | [OpenML Benchmarking Suites](https://docs.openml.org/benchmark/) |
+| tabular ML | PMLB | 适合快速扫监督学习数据集和建立稳定 baseline。 | [EpistasisLab/pmlb](https://github.com/EpistasisLab/pmlb) |
 | AutoML | AutoMLBenchmark | 适合对比 AutoML 系统和自定义实验设置。 | [openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
 | tabular ML | LCBench | 适合研究 HPO、早停和算法选择。 | [automl/LCBench](https://github.com/automl/LCBench) |
+| HPO | YAHPO Gym | 适合多保真、多目标和 black-box optimization 评测。 | [slds-lmu/yahpo_gym](https://github.com/slds-lmu/yahpo_gym) |
 | tabular ML | TabArena | 适合做持续维护的 tabular ML 对照实验。 | [autogluon/tabarena](https://github.com/autogluon/tabarena) |
 | embedding / retrieval | MTEB | 适合 embedding、检索和多任务表示学习评测。 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) |
 | 检索 / RAG | BEIR | 对 retriever、reranker、RAG retrieval 都很重要。 | [beir-cellar/beir](https://github.com/beir-cellar/beir) |
@@ -48,7 +53,8 @@
 | 异常检测 | ADBench | 适合系统比较 anomaly detection 算法与设置。 | [Minqi824/ADBench](https://github.com/Minqi824/ADBench) |
 | 图异常检测 | PyGOD | 适合图异常检测与 relational anomaly 评测。 | [pygod-team/pygod](https://github.com/pygod-team/pygod) |
 | 因果发现 | CausalBench | 适合做 causal discovery 方法比较。 | [ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
-| 治疗科学 / AI for Science | TDC | 如果有 health / drug / bio 方向，这个值得优先跟进。 | [mims-harvard/TDC](https://github.com/mims-harvard/TDC) |
+| data-centric AI | DataPerf | 适合从数据质量、数据选择和 dataset-centric AI 角度补 benchmark。 | [DataPerf](https://www.dataperf.org/) |
+| 系统性能 | MLPerf Training / Inference | 适合补训练、推理和系统栈性能基准。 | [MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
 
 ## 4. novelty / 审稿 / idea generation 的评测入口
 
@@ -71,7 +77,7 @@
 
 1. 先做 10 到 20 个内部黄金任务。
 2. 再引入 `MLE-bench / MLGym / MLR-Bench / FML-bench / ToolSandbox / Ragas`。
-3. 对 AI/ML/data mining 方向，再逐步补 `OpenML / TabArena / OGB / BEIR / RecBole / ADBench / CausalBench`。
+3. 对 AI/ML/data mining 方向，再逐步补 `OpenML / OpenML-CC18 / PMLB / YAHPO Gym / TabArena / OGB / BEIR / RecBole / ADBench / CausalBench`。
 4. 如果目标包含 idea / novelty，再补 `llm4novelty / NLPeer / OpenReview`。
 5. 最后再把 benchmark、CI 和回归测试绑起来，形成持续评测闭环。
 

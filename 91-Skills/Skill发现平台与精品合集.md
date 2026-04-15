@@ -26,12 +26,13 @@
 | BehiSecc Awesome Claude Skills | 大型分类清单 | 对文档、数据、科研、写作、协作类 skills 的整理很全。 | [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) |
 | VoltAgent Awesome Claude Skills | Claude 专题合集 | 更偏 Claude 视角的技能总表。 | [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) |
 | Composio Awesome Claude Skills | 技能集合 | 里面有不少实用的内容研究、文档处理、数据分析、组织协作类 skills。 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
+| obra/superpowers | 开发方法论技能库 | 对研究软件、实验工程、验证与并行任务拆解特别有价值。 | [obra/superpowers](https://github.com/obra/superpowers) |
 | Prat011 Awesome LLM Skills | 泛 Agent Skills 合集 | 不只局限于 Claude，对 Codex、Gemini 和通用 agent 也有兼容视角。 | [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) |
 | skillmatic Awesome Agent Skills | 技能生态笔记型合集 | 规模不算最大，但对 Agent Skills 架构、benchmarks、生态图谱整理得比较系统。 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) |
 | Claude Skills Collection | 分类型收集仓库 | 对官方和社区 skill 做了较清晰的分组，适合快速扫全局。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
 | Antigravity Awesome Skills | 大型技能仓库 | 规模很大，灵感很多，但更适合作为“扫新来源”，不适合无脑全装。 | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
 | Awesome OpenClaw Skills | 综合技能合集 | 适合继续扫 community skill bundles，尤其是研究、工程和内容处理条目。 | [sundial-org/awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) |
-| HKUST-Got-Skills | 历史教学资源 | 用户提供的 GitHub Pages 链接在 2026-04-15 实测返回 `404`，适合作为历史参考。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
+| HKUST-Got-Skills | 课程化资源页 | 集中整理 Skills、MCP、CLI 工具与科研自动化资料，适合做公开补库与导航参考。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
 
 ## 3. 面向科研最值得关注的专题合集
 
@@ -40,6 +41,7 @@
 | Scientific & Research Tools section | 科研专题条目 | 在 skill 合集中专门列科研技能，非常适合做初筛。 | [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) |
 | Writing & Research section | 写作研究专题 | 适合补写作、综述、审稿、研究流水线类条目。 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) |
 | Skills Leaderboard | 热门趋势 | 适合观察哪个 skill 生态最近热、哪些官方 repo 被大量安装。 | [skills.sh](https://skills.sh/) |
+| HKUST-Got-Skills | 综合资源页 | 把 Skills、MCP、CLI 工具和科研自动化资料放在一个入口中，适合做补库映射。 | [HKUST-Got-Skills](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
 
 ## 4. 历史桥接工具
 

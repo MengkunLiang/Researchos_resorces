@@ -10,9 +10,12 @@
 | OpenAI Skills | Codex 官方技能目录 | 虽然不是专门做科研的，但如果团队用 Codex 做实验工程、review、CI、计划拆解，这个官方目录非常值得长期跟。 | [openai/skills](https://github.com/openai/skills) |
 | Hugging Face Skills | AI/ML 官方技能包 | 适合数据集构建、训练、评测、Hub 操作和论文发布。 | [huggingface/skills](https://github.com/huggingface/skills) |
 | Anthropic Skills | 官方通用技能包 | `pdf/docx/pptx/xlsx` 对科研团队高频，`mcp-builder` 和 `skill-creator` 对平台建设也很重要。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| Development Methodology | 方法论技能库 | `test-driven-development`、`systematic-debugging`、`verification-before-completion` 这类方法论技能对实验代码、复现与排错很关键。 | [obra/superpowers](https://github.com/obra/superpowers) |
 | Azure Skills | 云端与 AI 平台技能包 | 对需要云训练、推理、资源诊断、成本分析、Foundry/MCP 集成的团队很有帮助。 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
 | Vercel Agent Skills | 研发辅助技能包 | 不直接面向科学实验，但对研究网站、demo、可视化页面、实验展示前端很实用。 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | OpenHands Skills | 技能文档与注册表 | 适合把技能化执行扩展到软件代理与实验代理。 | [OpenHands Skills Docs](https://docs.openhands.dev/overview/skills/overview) |
+| skills CLI / skillkit | 安装与分发工具 | 适合批量发现、安装与迁移公开技能包。 | [vercel-labs/skills](https://github.com/vercel-labs/skills)、[rohitg00/skillkit](https://github.com/rohitg00/skillkit) |
+| HKUST-Got-Skills Resources | 综合资源页 | 同时覆盖 `Skills`、`MCP`、CLI 和研究场景推荐，适合继续补库。 | [HKUST-Got-Skills Resources](https://giggleliu.github.io/HKUST-Got-Skills/resources) |
 
 ## 2. AI Research SKILLs 最值得关注的覆盖面
 
@@ -81,19 +84,24 @@
 | `hf-cli` | HF Skill | 模型、数据和 artifact 管理。 | [Hugging Face Agents Skills](https://huggingface.co/docs/hub/agents-skills) |
 | `mcp-builder` | Anthropic Skill | 把实验平台和脚本包装成 MCP。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | `xlsx` | Anthropic Skill | 把大量实验结果整理成表格。 | [anthropics/skills](https://github.com/anthropics/skills) |
+| `test-driven-development` | 方法论 Skill | 适合先写测试再实现，减少实验代码边改边坏。 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `systematic-debugging` | 方法论 Skill | 适合先定位根因，再修改训练脚本、评测脚本和 pipeline。 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `verification-before-completion` | 方法论 Skill | 适合在“任务完成”前强制跑验证命令和回归检查。 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `dispatching-parallel-agents` | 方法论 Skill | 适合把数据准备、训练、评测、结果整理拆成并行子任务。 | [obra/superpowers](https://github.com/obra/superpowers) |
 | skills.sh | Skill 发现平台 | 快速扫公开 skill 包和能力目录。 | [skills.sh](https://skills.sh/) |
 | awesome-agent-skills | Skill 合集 | 继续补充公开 skill 生态和案例。 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
 
 ## 7. 面向 AI/ML / data mining 团队的安装顺序建议
 
 1. `anthropics/skills`
-2. `Orchestra-Research/AI-Research-SKILLs`
-3. `openai/skills`
-4. `huggingface/skills`
-5. `microsoft/azure-skills`
-6. 再按具体框架栈追加专门 skills
+2. `obra/superpowers`
+3. `Orchestra-Research/AI-Research-SKILLs`
+4. `openai/skills`
+5. `huggingface/skills`
+6. `skills` / `skillkit`
+7. 再按具体框架栈追加专门 skills
 
-## 8. 对实验室更实用的一个判断标准
+## 8. 对科研场景更实用的一个判断标准
 
 要优先保留那些能直接增强下面这些环节的 skills：
 

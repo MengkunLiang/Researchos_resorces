@@ -20,6 +20,29 @@
 - [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)
 - [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
 
+## 最小工具栈
+
+1. `Jupyter MCP + GitHub MCP + uv / conda-lock`
+   适合搭一个可执行、可追溯、可回放的最小实验闭环。
+2. `MLflow / Weights & Biases + DVC`
+   适合记录参数、指标、artifact 和数据版本。
+3. `Optuna + Ray Tune + Chart MCP`
+   适合做调参、结果分析和可视化。
+4. `OpenML / TabArena / OGB / BEIR / MTEB`
+   适合快速补 AI/ML/data mining 的标准公开 benchmark。
+
+## 高频公开资源
+
+| 资源 | 类型 | 更适合的用途 | 链接 |
+| --- | --- | --- | --- |
+| MLflow / Weights & Biases / DVC | 实验追踪与数据版本 | 适合建立参数、指标、artifact、数据版本一体化记录。 | [MLflow](https://mlflow.org/)、[Weights & Biases](https://wandb.ai/site)、[DVC](https://dvc.org/) |
+| MLE-bench / MLGym / MLR-Bench / FML-bench | ML engineering 与 research-agent benchmark | 适合评测 AI 代理是否真能做机器学习实验、调参、debug 和开放研究任务。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/)、[facebookresearch/MLGym](https://github.com/facebookresearch/MLGym)、[chchenhui/mlrbench](https://github.com/chchenhui/mlrbench)、[qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
+| OpenHands Benchmarks / ToolSandbox / ML-Dev-Bench | tool-use 与开发型 benchmark | 适合测多轮工具调用、状态化执行和 ML 开发能力。 | [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks)、[apple/ToolSandbox](https://github.com/apple/ToolSandbox)、[ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
+| OpenML / OpenML-CC18 / PMLB / TabArena / YAHPO Gym | tabular / AutoML / HPO benchmark | 适合建立标准 tabular 基线、多保真搜索与可复现实验。 | [OpenML](https://openml.io/)、[OpenML Benchmarking Suites](https://docs.openml.org/benchmark/)、[EpistasisLab/pmlb](https://github.com/EpistasisLab/pmlb)、[autogluon/tabarena](https://github.com/autogluon/tabarena)、[slds-lmu/yahpo_gym](https://github.com/slds-lmu/yahpo_gym) |
+| OGB / BEIR / MTEB / RecBole | graph / retrieval / recommender benchmark | 适合图学习、检索、embedding 与推荐系统对照实验。 | [snap-stanford/ogb](https://github.com/snap-stanford/ogb)、[beir-cellar/beir](https://github.com/beir-cellar/beir)、[embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb)、[RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole) |
+| LiveCodeBench / BigCodeBench / DS-1000 | 代码与数据科学 benchmark | 适合评测 coding、数据分析脚本、函数调用与修复能力。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)、[bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench)、[xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
+| DataPerf / MLPerf | data-centric 与系统性能 benchmark | 适合补 dataset-centric AI、训练性能和推理性能维度。 | [DataPerf](https://www.dataperf.org/)、[MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
+
 ## 一、相关 Skills
 
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |
@@ -74,6 +97,8 @@
 | ClearML | 追踪与远程执行平台 | tracking + orchestration | 适合把实验追踪、远程执行、数据管理与 pipeline 合并在同一套平台里。 | [clearml/clearml](https://github.com/clearml/clearml) |
 | Hydra | 配置管理 | 配置组合与 sweep | 适合处理实验配置爆炸和参数组合。 | [facebookresearch/hydra](https://github.com/facebookresearch/hydra) |
 | Optuna | HPO 框架 | 调参与搜索 | 适合做 study、trial、可视化和自动调参。 | [optuna/optuna](https://github.com/optuna/optuna) |
+| Weights & Biases | 实验追踪平台 | tracking 与可视化 | 适合记录 runs、对比实验、保存配置并做团队协作。 | [wandb/wandb](https://github.com/wandb/wandb) |
+| Ray Tune | 调参与分布式实验 | HPO 与并行搜索 | 适合大规模搜索、调度和资源感知实验。 | [ray-project/ray](https://github.com/ray-project/ray) |
 | uv / micromamba / conda-lock | 依赖管理 | 环境锁定 | 适合把环境与依赖固定成可重建状态。 | [astral-sh/uv](https://github.com/astral-sh/uv)、[mamba-org/micromamba-releases](https://github.com/mamba-org/micromamba-releases)、[conda/conda-lock](https://github.com/conda/conda-lock) |
 | Docker / Apptainer | 容器化工具 | 可移植运行环境 | 适合把训练、评测和依赖打包成一致执行环境。 | [Docker](https://www.docker.com/)、[apptainer/apptainer](https://github.com/apptainer/apptainer) |
 | ReproZip / DataLad | 复现与数据管理 | 复验与 provenance | 适合打包命令行实验、管理大文件和追踪数据 provenance。 | [VIDA-NYU/reprozip](https://github.com/VIDA-NYU/reprozip)、[DataLad](https://www.datalad.org/) |
@@ -85,12 +110,14 @@
 | --- | --- | --- | --- | --- |
 | AI-ML-DataMining-Benchmark与公开评测集 | 仓库内详表 | Benchmark 总览 | 当前模块里 AI/ML、data mining、agent eval 与 benchmark 资源的主归属页。 | [AI-ML-DataMining-Benchmark与公开评测集](./AI-ML-DataMining-Benchmark与公开评测集.md) |
 | MLE-bench | ML engineering benchmark | 端到端 ML 工程评估 | 专门测 AI 代理是否真能做 ML 工程任务。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
-| MLGym | AI research benchmark | 研究任务评估 | 面向机器学习研究任务和 AI research agent 的代表性 benchmark。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) |
+| MLGym / MLR-Bench / FML-bench | AI/ML research benchmark | 研究任务评估 | 适合覆盖开放式机器学习研究、自动 ML 研究与完整研究链路评测。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym)、[chchenhui/mlrbench](https://github.com/chchenhui/mlrbench)、[qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
 | Aviary / LAB-Bench | 科学 agent benchmark | 科学任务与 notebook 环境 | 适合评测文献检索、科学问答、notebook 执行和生物科学任务。 | [Future-House/aviary](https://github.com/Future-House/aviary)、[Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
-| ToolSandbox / ML-Dev-Bench | tool-use 与 ML dev benchmark | 工具调用与开发任务 | 适合评测状态化工具调用、多轮任务和 ML 开发能力。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox)、[ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
-| OpenCompass / lm-eval-harness / HELM / Ragas | 通用评测框架 | LLM、RAG 与 agent eval | 适合建立通用大模型评测与 RAG/agent 回归评测体系。 | [open-compass/opencompass](https://github.com/open-compass/opencompass)、[EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)、[stanford-crfm/helm](https://github.com/stanford-crfm/helm)、[Ragas](https://github.com/explodinggradients/ragas) |
-| OpenML / TabArena / AutoMLBenchmark | tabular 与 AutoML benchmark | 基线与对照实验 | 适合标准化 tabular 任务、AutoML 比较和可复现实验。 | [OpenML](https://openml.io/)、[autogluon/tabarena](https://github.com/autogluon/tabarena)、[openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
-| OGB / BEIR / MTEB / RecBole / TDC / ADBench / CausalBench | 领域 benchmark | AI/ML/data mining 专题评测 | 覆盖图学习、检索、embedding、推荐、AI for science、异常检测与因果发现。 | [snap-stanford/ogb](https://github.com/snap-stanford/ogb)、[beir-cellar/beir](https://github.com/beir-cellar/beir)、[embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb)、[RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole)、[mims-harvard/TDC](https://github.com/mims-harvard/TDC)、[Minqi824/ADBench](https://github.com/Minqi824/ADBench)、[ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
+| ToolSandbox / ML-Dev-Bench / OpenHands Benchmarks | tool-use 与 ML dev benchmark | 工具调用与开发任务 | 适合评测状态化工具调用、多轮任务、ML 开发能力和软件代理执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox)、[ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench)、[OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) |
+| OpenCompass / lm-eval-harness / LightEval / HELM / Ragas | 通用评测框架 | LLM、RAG 与 agent eval | 适合建立通用大模型评测、RAG/agent 回归评测以及多后端 benchmark 执行体系。 | [open-compass/opencompass](https://github.com/open-compass/opencompass)、[EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)、[huggingface/lighteval](https://github.com/huggingface/lighteval)、[stanford-crfm/helm](https://github.com/stanford-crfm/helm)、[Ragas](https://github.com/explodinggradients/ragas) |
+| LiveCodeBench / BigCodeBench / DS-1000 | 代码与数据科学 benchmark | coding 与 data science eval | 适合评测代码生成、代码修复、真实函数调用和数据科学代码能力。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)、[bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench)、[xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
+| OpenML / OpenML-CC18 / PMLB / TabArena / YAHPO Gym / AutoMLBenchmark | tabular 与 AutoML benchmark | 基线与对照实验 | 适合标准化 tabular 任务、AutoML 比较、多保真 HPO 与可复现实验。 | [OpenML](https://openml.io/)、[OpenML Benchmarking Suites](https://docs.openml.org/benchmark/)、[EpistasisLab/pmlb](https://github.com/EpistasisLab/pmlb)、[autogluon/tabarena](https://github.com/autogluon/tabarena)、[slds-lmu/yahpo_gym](https://github.com/slds-lmu/yahpo_gym)、[openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
+| OGB / BEIR / MTEB / RecBole / ADBench / CausalBench | 领域 benchmark | AI/ML/data mining 专题评测 | 覆盖图学习、检索、embedding、推荐、异常检测与因果发现。 | [snap-stanford/ogb](https://github.com/snap-stanford/ogb)、[beir-cellar/beir](https://github.com/beir-cellar/beir)、[embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb)、[RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole)、[Minqi824/ADBench](https://github.com/Minqi824/ADBench)、[ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
+| DataPerf / MLPerf | data-centric 与系统性能 benchmark | 数据与性能评测 | 适合补数据中心 AI、训练/推理性能和 dataset-centric AI 的评价维度。 | [DataPerf](https://www.dataperf.org/)、[MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
 
 ## 六、外部整合入口
 
@@ -99,6 +126,8 @@
 | awesome-data-agents | 数据智能与 agent 合集 | 补数据工作流、数据代理与实验代理资源。 | [HKUSTDial/awesome-data-agents](https://github.com/HKUSTDial/awesome-data-agents) |
 | Toolathlon | 工具使用 benchmark 合集 | 扫工具调用、agent benchmark 和 tool-use 任务。 | [hkust-nlp/Toolathlon](https://github.com/hkust-nlp/Toolathlon) |
 | AgentBoard | agent 评测合集 | 快速扫 agent benchmark 和评测维度。 | [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard) |
+| DataPerf | 数据中心 AI 基准组织 | 补 dataset-centric AI benchmark 与挑战。 | [DataPerf](https://www.dataperf.org/) |
+| MLCommons MLPerf | 系统性能 benchmark 组织 | 补训练、推理与硬件/软件系统性能基准。 | [MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
 | awesome-ml-experiment-management | 实验管理合集 | 补 experiment tracking、logging、dashboard 和结果管理。 | [awesome-mlops/awesome-ml-experiment-management](https://github.com/awesome-mlops/awesome-ml-experiment-management) |
 | awesome-open-mlops | 开源 MLOps 合集 | 补 pipeline、部署、监控和 full-stack MLOps 工具。 | [fuzzylabs/awesome-open-mlops](https://github.com/fuzzylabs/awesome-open-mlops) |
 | awesome-reproducible-research | 可复现科研合集 | 补 reproducibility case、平台、教程和工具。 | [leipzig/awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) |
@@ -115,8 +144,12 @@
    适合做 tabular 与 AutoML 基线和公开对照。
 5. `OGB / BEIR / MTEB / RecBole / ADBench / CausalBench`
    适合 AI/ML/data mining 专题评测。
-6. `MLE-bench / MLGym / Aviary / ToolSandbox / ML-Dev-Bench`
+6. `MLE-bench / MLGym / MLR-Bench / FML-bench / ToolSandbox / ML-Dev-Bench`
    适合做研究 agent 与实验自动化系统评测。
+7. `LiveCodeBench / BigCodeBench / DS-1000`
+   适合做代码能力、数据科学代码和代理编程评测。
+8. `PMLB / OpenML-CC18 / YAHPO Gym + Ray Tune / Optuna`
+   适合做 tabular、HPO 和多保真搜索实验。
 
 ## 八、仓库内延伸阅读
 

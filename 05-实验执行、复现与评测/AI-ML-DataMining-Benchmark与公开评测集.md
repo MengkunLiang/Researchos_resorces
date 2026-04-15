@@ -25,6 +25,7 @@
 | --- | --- | --- | --- |
 | OpenCompass | 大模型评测平台 | 中文社区常用，支持大量模型和数据集，适合统一基线评估。 | [open-compass/opencompass](https://github.com/open-compass/opencompass) |
 | lm-evaluation-harness | 语言模型评测框架 | 通用、经典、可扩展，是很多论文和榜单的基础工具。 | [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) |
+| LightEval | 多后端评测框架 | 适合快速调用 Hugging Face 生态中的大量任务，也适合做统一 benchmark 编排。 | [huggingface/lighteval](https://github.com/huggingface/lighteval) |
 | HELM | holistic evaluation 框架 | 适合做多维度、可复现、可解释的综合评测。 | [stanford-crfm/helm](https://github.com/stanford-crfm/helm) |
 | Ragas | RAG / agent eval | 适合评测知识检索、回答质量、faithfulness 和 workflow 质量。 | [Ragas](https://github.com/explodinggradients/ragas) |
 | AgentBoard | agent benchmark 合集 | 适合快速扫 agent 评测基准和任务类型。 | [hkust-nlp/AgentBoard](https://github.com/hkust-nlp/AgentBoard) |
@@ -35,13 +36,24 @@
 | 资源 | 类型 | 核心价值 | 链接 |
 | --- | --- | --- | --- |
 | OpenML | 开放 ML 平台 | 提供任务、runs、suite 和标准元数据，是最重要的 tabular benchmark 基座之一。 | [OpenML](https://openml.io/) |
+| OpenML-CC18 | tabular benchmark suite | 是 OpenML 中最常被引用的标准 tabular 基准套件之一。 | [OpenML Benchmarking Suites](https://docs.openml.org/benchmark/) |
+| PMLB | tabular benchmark 数据库 | 适合快速建立传统监督学习的对照实验与教学型 benchmark。 | [EpistasisLab/pmlb](https://github.com/EpistasisLab/pmlb) |
 | AutoML Benchmark | AutoML benchmarking 框架 | 适合对比 AutoML 系统和自定义 benchmark。 | [openml/automlbenchmark](https://github.com/openml/automlbenchmark) |
 | LCBench | 学习曲线 benchmark | 适合研究 HPO、早停、代理模型和算法选择。 | [automl/LCBench](https://github.com/automl/LCBench) |
+| YAHPO Gym | HPO benchmark gym | 适合多保真、多目标超参数优化和 black-box optimization 评测。 | [slds-lmu/yahpo_gym](https://github.com/slds-lmu/yahpo_gym) |
 | TabArena | living tabular benchmark | 适合做更强、更持续维护的 tabular ML 对照实验。 | [autogluon/tabarena](https://github.com/autogluon/tabarena) |
 | TabRepo | tabular benchmark 结果库 | 适合复用 tabular 模型评测结果与组合策略。 | [autogluon/tabrepo](https://github.com/autogluon/tabrepo) |
 | AutoGluon | AutoML 框架 | 适合快速搭稳定 baseline，并与 tabular benchmark 对接。 | [autogluon/autogluon](https://github.com/autogluon/autogluon) |
 
-## 四、检索、embedding、图学习与推荐 benchmark
+## 四、代码、数据科学与开发型 benchmark
+
+| 资源 | 类型 | 核心价值 | 链接 |
+| --- | --- | --- | --- |
+| LiveCodeBench | code benchmark | 适合评测代码生成、代码执行、测试输出预测和长期污染控制。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) |
+| BigCodeBench | code benchmark | 适合评测复杂函数调用、真实任务自动化和更接近实际开发的代码能力。 | [bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench) |
+| DS-1000 | data science code benchmark | 适合评测数据处理、分析、建模和 notebook 式数据科学代码能力。 | [xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
+
+## 五、检索、embedding、图学习与推荐 benchmark
 
 | 方向 | 资源 | 核心价值 | 链接 |
 | --- | --- | --- | --- |
@@ -53,7 +65,7 @@
 | recommendation | Cornac | 适合研究原型、多模态推荐和较轻量的基线比较。 | [PreferredAI/cornac](https://github.com/PreferredAI/cornac) |
 | knowledge graph | PyKEEN | 适合知识图谱表示学习和 link prediction 评测。 | [pykeen/pykeen](https://github.com/pykeen/pykeen) |
 
-## 五、异常检测、因果发现与 AI for Science 评测
+## 六、异常检测、因果发现与数据中心 AI 评测
 
 | 方向 | 资源 | 核心价值 | 链接 |
 | --- | --- | --- | --- |
@@ -63,9 +75,10 @@
 | causal discovery | CausalBench | 适合比较因果发现算法和数据假设。 | [ravivanpong/CausalBench](https://github.com/ravivanpong/CausalBench) |
 | causal discovery | causal-learn | 适合在 benchmark 之外快速试验主流因果发现算法。 | [py-why/causal-learn](https://github.com/py-why/causal-learn) |
 | heterogeneous treatment effects | EconML | 适合把 CATE / DML / treatment effect 估计带进实验设计。 | [py-why/EconML](https://github.com/py-why/EconML) |
-| therapeutics / science | TDC | 面向药物、治疗科学和 AI for Science 的数据与 benchmark 平台。 | [mims-harvard/TDC](https://github.com/mims-harvard/TDC) |
+| data-centric AI | DataPerf | 适合补数据质量、数据选择和 dataset-centric AI 的评价视角。 | [DataPerf](https://www.dataperf.org/) |
+| system performance | MLPerf Training / Inference | 适合补训练速度、推理吞吐、系统栈与硬件/软件性能基准。 | [MLPerf Training](https://mlcommons.org/benchmarks/training/)、[MLPerf Inference](https://mlcommons.org/working-groups/benchmarks/inference/) |
 
-## 六、公开榜单与资料平台
+## 七、公开榜单与资料平台
 
 | 资源 | 类型 | 核心价值 | 链接 |
 | --- | --- | --- | --- |
@@ -75,17 +88,19 @@
 | MTEB Leaderboard | embedding 榜单 | 适合快速对比 embedding 和 retrieval 模型。 | [MTEB](https://github.com/embeddings-benchmark/mteb) |
 | OpenCompass Leaderboard | 大模型榜单 | 适合多任务、多数据集和多模型对照。 | [OpenCompass](https://github.com/open-compass/opencompass) |
 
-## 七、几条常用路线
+## 八、几条常用路线
 
 1. ML engineering / research agent 路线：
    `MLE-bench + MLGym + MLR-Bench + FML-bench + ToolSandbox + LiveDRBench`
 2. tabular / AutoML 路线：
-   `OpenML + AutoMLBenchmark + LCBench + TabArena + AutoGluon`
-3. retrieval / RAG 路线：
+   `OpenML + OpenML-CC18 + PMLB + AutoMLBenchmark + YAHPO Gym + TabArena + AutoGluon`
+3. code / data science 路线：
+   `LiveCodeBench + BigCodeBench + DS-1000 + OpenHands Benchmarks`
+4. retrieval / RAG 路线：
    `BEIR + MTEB + OpenCompass + Ragas`
-4. graph / data mining 路线：
+5. graph / data mining 路线：
    `OGB + GRB + PyG / DGL + PyGOD`
-5. recommendation 路线：
+6. recommendation 路线：
    `RecBole + Cornac + Papers with Code`
-6. anomaly / causal / science 路线：
-   `ADBench + PyOD + CausalBench + causal-learn + EconML + TDC`
+7. anomaly / causal / data-centric 路线：
+   `ADBench + PyOD + CausalBench + causal-learn + EconML + DataPerf`

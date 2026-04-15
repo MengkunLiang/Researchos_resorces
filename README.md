@@ -2,7 +2,7 @@
 
 更新时间：2026-04-15
 
-本仓库用于整合科研工作流中最常用的公开资源，包括 `Skills`、`MCP`、agent 系统、文献与知识工具、实验框架、benchmark、写作与投稿工具，以及 AI/ML、scientific discovery、computational design science 等方向专题。整体采用“任务优先、方向补充、类型附录查全”的组织方式。
+本仓库用于整合科研工作流中最常用的公开资源，包括 `Skills`、`MCP`、agent 系统、文献与知识工具、实验框架、benchmark、写作与投稿工具，以及 `AI/ML`、`data mining`、`computational design science` 等方向专题。整体采用“任务优先、方向补充、类型附录查全”的组织方式；`scientific discovery` 相关内容保留为补充支线，而不是主轴。
 
 ## 快速开始
 
@@ -12,6 +12,14 @@
 2. [00-总览/任务与资源对照表](./00-总览/任务与资源对照表.md)
 3. [09-按科研任务导航](./09-按科研任务导航/README.md)
 4. [08-方向专题](./08-方向专题/README.md)
+
+## 高频入口
+
+- 想补实验链路、benchmark、agent eval： [05-实验执行、复现与评测](./05-实验执行、复现与评测/README.md)
+- 想做 novelty 判断、综述、review mining： [04-新颖性判断与综述](./04-新颖性判断与综述/README.md)
+- 想系统扫 `Skills / MCP`： [98-全局索引/Skills索引](./98-全局索引/Skills索引.md) / [98-全局索引/MCP索引](./98-全局索引/MCP索引.md)
+- 想补实验工具、CLI、benchmark： [98-全局索引/实验与Benchmark索引](./98-全局索引/实验与Benchmark索引.md) / [98-全局索引/CLI与终端工具索引](./98-全局索引/CLI与终端工具索引.md)
+- 想补 AI/ML 与 data mining 子方向： [08-方向专题/AI-ML-DataMining资源](./08-方向专题/AI-ML-DataMining资源.md)
 
 ## 按科研任务进入
 
@@ -58,7 +66,7 @@
 
 ### 方式 B：按研究方向进入
 
-适合 AI/ML、scientific discovery、computational design science、开放创新等方向的专题补充。
+适合 AI/ML、data mining、computational design science、开放创新等方向的专题补充。
 优先入口：[08-方向专题](./08-方向专题/README.md)
 
 ### 方式 C：按资源类型查全

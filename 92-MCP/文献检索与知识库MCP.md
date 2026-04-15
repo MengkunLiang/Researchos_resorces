@@ -14,6 +14,8 @@
 | arXiv MCP Server | arXiv 检索 | 适合快速获取预印本与基础元数据。 | [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) |
 | arXiv LaTeX MCP | LaTeX 源码抓取 | 对公式、伪代码、表格结构和附录材料的精读场景特别有价值。 | [takashiishida/arxiv-latex-mcp](https://github.com/takashiishida/arxiv-latex-mcp) |
 | Semantic Scholar MCP | 引文网络与作者分析 | 适合做论文、作者、引用关系与主题网络分析。 | [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) |
+| Google Scholar MCP | Scholar 补充层 | 适合在正式学术图谱之外补查 Scholar 搜索结果。 | [haris-musa/google-scholar-mcp](https://github.com/haris-musa/google-scholar-mcp) |
+| scholar-mcp | Scholar + 下载 + 分析 | 适合把 Scholar、下载与引文图谱串起来做补充检索。 | [baryhuang/scholar-mcp](https://github.com/baryhuang/scholar-mcp) |
 | Crossref MCP | DOI 与出版元数据 | 适合 DOI 查询、出版信息补全与元数据核对。 | [botanicastudios/crossref-mcp](https://github.com/botanicastudios/crossref-mcp) |
 
 ## 2. 个人文库、知识库与文档资产
@@ -34,7 +36,17 @@
 | Exa MCP Server | AI 原生搜索 | 适合补充开放网页、项目页、新闻稿、实验主页和最新资料。 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
 | Tavily MCP | 搜索增强 | 适合做 research assistant 的外部信息补充层。 | [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) |
 
-## 4. 适合公开资源库保留的组合方式
+## 4. 相关 CLI 与终端工具
+
+| 资源 | 场景 | 简述 | 链接 |
+| --- | --- | --- | --- |
+| semanticscholar | Semantic Scholar CLI | 适合脚本化查询论文、作者与引用信息。 | [danielnsilva/semanticscholar](https://github.com/danielnsilva/semanticscholar) |
+| doi2bib | BibTeX 生成 | 适合把 DOI 或 arXiv ID 快速转成 BibTeX。 | [CrossRef/doi2bib](https://github.com/CrossRef/doi2bib) |
+| arxiv-dl | arXiv 下载 | 适合批量按 URL 或 arXiv ID 下载论文。 | [lukasschwab/arxiv.py](https://github.com/lukasschwab/arxiv.py) |
+| zotero-cli | Zotero CLI | 适合脚本化查询和管理 Zotero Web API。 | [bcj/zotero-cli](https://github.com/bcj/zotero-cli) |
+| papis | 文献与书目管理 CLI | 适合终端式文献管理、附件整理与 Bib 工作流。 | [papis/papis](https://github.com/papis/papis) |
+
+## 5. 适合公开资源库保留的组合方式
 
 | 组合 | 适用链路 | 说明 |
 | --- | --- | --- |
@@ -46,7 +58,7 @@
 写作、协作与投稿相关 MCP 见：
 [写作协作与投稿MCP](./写作协作与投稿MCP.md)
 
-## 5. 选择这类 MCP 时的注意点
+## 6. 选择这类 MCP 时的注意点
 
 1. 文献类 MCP 优先选择返回 DOI、ArXiv ID、PMID、OpenAlex ID、OpenReview Note ID 等可验证标识符的实现。
 2. Google Scholar 类接口波动较大，适合做补充层，不宜作为主数据源。
