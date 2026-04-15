@@ -16,6 +16,7 @@
 - [AI-ML-DataMining-Benchmark与公开评测集](./AI-ML-DataMining-Benchmark与公开评测集.md)
 - [96-实验与评测/实验执行与复现](../96-实验与评测/实验执行与复现.md)
 - [96-实验与评测/评测与Benchmark](../96-实验与评测/评测与Benchmark.md)
+- [98-全局索引/实验与Benchmark索引](../98-全局索引/实验与Benchmark索引.md)
 - [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)
 - [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
 

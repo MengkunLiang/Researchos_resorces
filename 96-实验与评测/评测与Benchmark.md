@@ -9,10 +9,14 @@
 | --- | --- | --- | --- |
 | MLE-bench | ML engineering benchmark | 专门测 agent 是否真的能完成真实 ML engineering 任务。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym | ML research benchmark | 更直接面向机器学习研究任务与 research agent。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) |
+| MLR-Bench | open-ended ML research benchmark | 覆盖 idea、proposal、experimentation 与 paper writing，更适合评测完整研究链路。 | [chchenhui/mlrbench](https://github.com/chchenhui/mlrbench) |
+| FML-bench | automatic ML research benchmark | 强调探索广度与基础 ML 问题，适合自动 ML 研究代理比较。 | [qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
 | Aviary | language agent gym | 提供文献、notebook、生物序列等科学任务环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LAB-Bench | scientific benchmark | 面向生物科学研究能力评测，也适合作为科学 agent 参考基准。 | [Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
+| LiveDRBench | deep research benchmark | 适合评测 deep research 与 claim discovery。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |
 | ToolSandbox | tool-use benchmark | 适合评测多轮工具调用和状态化执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox) |
 | ML-Dev-Bench | ML development benchmark | 直接面向模型开发、debug、数据处理和实现新想法等任务。 | [ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
+| OpenHands Benchmarks | agent benchmark harness | 适合继续补软件代理、执行任务和工程工作流评测。 | [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) |
 | SciEval | scientific LLM benchmark | 适合从 scientific knowledge、application 和 research ability 多层评估模型。 | [OpenDFM/SciEval](https://github.com/OpenDFM/SciEval) |
 | SciCode | scientific coding benchmark | 适合测试科研编程和实验实现能力。 | [scicode-bench/SciCode](https://github.com/scicode-bench/SciCode) |
 
@@ -66,7 +70,7 @@
 ## 6. 更实用的落地方式
 
 1. 先做 10 到 20 个内部黄金任务。
-2. 再引入 `MLE-bench / MLGym / ToolSandbox / Ragas`。
+2. 再引入 `MLE-bench / MLGym / MLR-Bench / FML-bench / ToolSandbox / Ragas`。
 3. 对 AI/ML/data mining 方向，再逐步补 `OpenML / TabArena / OGB / BEIR / RecBole / ADBench / CausalBench`。
 4. 如果目标包含 idea / novelty，再补 `llm4novelty / NLPeer / OpenReview`。
 5. 最后再把 benchmark、CI 和回归测试绑起来，形成持续评测闭环。

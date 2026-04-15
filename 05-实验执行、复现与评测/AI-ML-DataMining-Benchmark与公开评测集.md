@@ -8,10 +8,14 @@
 | --- | --- | --- | --- |
 | MLE-bench | ML engineering benchmark | 专门测 agent 是否能完成真实 ML engineering 任务，是当前最重要的 ML 代理 benchmark 之一。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym | AI research benchmark | 面向开放式机器学习研究任务，覆盖想法、数据、训练、分析与迭代。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) |
+| MLR-Bench | open-ended ML research benchmark | 覆盖 idea、proposal、experimentation 与 paper writing，更适合评测完整研究链路。 | [chchenhui/mlrbench](https://github.com/chchenhui/mlrbench) |
+| FML-bench | automatic ML research benchmark | 强调探索广度与基础 ML 问题，适合自动 ML 研究代理比较。 | [qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
 | Aviary | language agent gym | 提供文献、notebook、生物序列等科学任务环境。 | [Future-House/aviary](https://github.com/Future-House/aviary) |
 | LAB-Bench | biology research benchmark | 面向生物科学研究基础能力的科学 benchmark。 | [Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
+| LiveDRBench | deep research benchmark | 适合评测 deep research、claim discovery 和研究检索闭环。 | [microsoft/livedrbench](https://github.com/microsoft/livedrbench) |
 | ToolSandbox | tool-use benchmark | 适合评测状态化工具调用、多轮对话和中间步骤执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox) |
 | ML-Dev-Bench | ML development benchmark | 直接面向模型开发、debug、数据管理和实现新想法等任务。 | [ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench) |
+| OpenHands Benchmarks | agent benchmark harness | 适合继续补软件代理、执行任务和工程工作流评测。 | [OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) |
 | SciEval | scientific LLM benchmark | 适合从 scientific knowledge、application、calculation 和 research ability 多层评估模型。 | [OpenDFM/SciEval](https://github.com/OpenDFM/SciEval) |
 | SciCode | scientific coding benchmark | 适合测试科研编程、实验实现和科学问题编码能力。 | [scicode-bench/SciCode](https://github.com/scicode-bench/SciCode) |
 
@@ -74,7 +78,7 @@
 ## 七、几条常用路线
 
 1. ML engineering / research agent 路线：
-   `MLE-bench + MLGym + Aviary + ToolSandbox + ML-Dev-Bench`
+   `MLE-bench + MLGym + MLR-Bench + FML-bench + ToolSandbox + LiveDRBench`
 2. tabular / AutoML 路线：
    `OpenML + AutoMLBenchmark + LCBench + TabArena + AutoGluon`
 3. retrieval / RAG 路线：

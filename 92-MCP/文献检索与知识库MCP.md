@@ -7,6 +7,7 @@
 | 资源 | 场景 | 简述 | 链接 |
 | --- | --- | --- | --- |
 | Paper Search MCP | 多源学术检索 | 同时覆盖 arXiv、PubMed、Semantic Scholar、Crossref、OpenAlex、Zenodo 等多个公开来源，适合做统一入口。 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) |
+| Academia MCP | 学术研究 MCP | 同时覆盖论文、数据集、引用、网页搜索与研究报告流程，适合做更完整的 research assistant 基座。 | [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp) |
 | OpenReview MCP | 投稿与评审生态 | 直接面向 OpenReview，适合跟踪最新投稿、评审流程、rebuttal 语境与顶会前沿。 | [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
 | OpenAlex MCP | 学术图谱 | 面向 OpenAlex API，适合做作者、机构、主题、引文网络与文献 landscape。 | [hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp) |
 | OpenAlex Research MCP | 文献综述与 landscape | 功能更偏 literature review、citation analysis 与 research landscaping。 | [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp) |

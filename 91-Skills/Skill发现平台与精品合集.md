@@ -7,6 +7,7 @@
 | 资源 | 类型 | 简述 | 链接 |
 | --- | --- | --- | --- |
 | Skills Directory | 技能目录 | 当前最值得长期关注的公开目录之一，带有 leaderboard、热门技能和安装入口。 | [skills.sh](https://skills.sh/) |
+| Awesome Skills | 技能目录 | 提供跨宿主 skills 目录，适合作为 community 发现页补充。 | [intellectronica/awesome-skills](https://github.com/intellectronica/awesome-skills) |
 | Skills CLI | 通用安装器 | `npx skills add` 目前是开放生态里最像“统一安装器”的工具。 | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | Skills CLI 文档 | 文档 | 解释安装、审计、兼容宿主、路径和安全提醒。 | [skills.sh/docs](https://skills.sh/docs) |
 | Agent Skills 规范库 | 规范与样例入口 | 除了 `agentskills.io` 外，`agentskills/agentskills` 是看规范与参考实现的最佳 GitHub 入口。 | [agentskills/agentskills](https://github.com/agentskills/agentskills) |
@@ -60,6 +61,7 @@
 ### 第二层：再扫“总表与排行榜”
 
 - `skills.sh`
+- `intellectronica/awesome-skills`
 - `VoltAgent/awesome-agent-skills`
 - `BehiSecc/awesome-claude-skills`
 - `github/awesome-copilot`

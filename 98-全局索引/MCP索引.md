@@ -1,5 +1,11 @@
 # MCP 索引
 
+## 什么时候进入这一页
+
+1. 需要横向扫科研工作流中最常见的 MCP server。
+2. 需要先判断某类 MCP 应该回到哪一个附录页继续看。
+3. 需要把文献、知识库、notebook、GitHub、投稿协作等能力接回具体任务模块。
+
 ## 先看哪些任务模块
 
 - [01-课题扫描与选题](../01-课题扫描与选题/README.md)
@@ -13,14 +19,32 @@
 - [92-MCP/科研常用MCP清单](../92-MCP/科研常用MCP清单.md)
 - [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)
 - [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)
+- [92-MCP/写作协作与投稿MCP](../92-MCP/写作协作与投稿MCP.md)
 - [92-MCP/生物医药与专利MCP](../92-MCP/生物医药与专利MCP.md)
+
+## 按需求回查
+
+| 当前目标 | 更适合先看 |
+| --- | --- |
+| 文献检索、引文网络、知识库 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
+| notebook、pipeline、实验追踪 | [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) |
+| 写作、投稿、Overleaf、OpenReview | [92-MCP/写作协作与投稿MCP](../92-MCP/写作协作与投稿MCP.md) |
+| 科学数据、专利、生物医药 | [92-MCP/生物医药与专利MCP](../92-MCP/生物医药与专利MCP.md) |
 
 ## 高频公开资源
 
 - [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp)
+- [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)
 - [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp)
 - [hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp)
+- [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp)
 - [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)
 - [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
 - [github/github-mcp-server](https://github.com/github/github-mcp-server)
 - [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers)
+
+## 推荐配合使用
+
+- [92-MCP/README](../92-MCP/README.md)
+- [98-全局索引/文献与知识索引](./文献与知识索引.md)
+- [98-全局索引/实验与Benchmark索引](./实验与Benchmark索引.md)
