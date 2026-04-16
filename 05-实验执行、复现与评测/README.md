@@ -17,6 +17,7 @@
 - [96-实验与评测/实验执行与复现](../96-实验与评测/实验执行与复现.md)
 - [96-实验与评测/评测与Benchmark](../96-实验与评测/评测与Benchmark.md)
 - [98-全局索引/实验与Benchmark索引](../98-全局索引/实验与Benchmark索引.md)
+- [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md)
 - [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)
 - [08-方向专题/AI-ML-DataMining资源](../08-方向专题/AI-ML-DataMining资源.md)
 
@@ -60,6 +61,8 @@
 | --- | --- | --- | --- | --- |
 | 科研工程与实验Skills | 仓库内附录 | Skills 总览 | 当前仓库里实验工程、训练、评测和自动化执行相关 Skills 的主归属页。 | [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md) |
 | AI Research SKILLs | 研究工程技能总库 | 训练与评测 | 覆盖训练、推理、分布式、评测、MLOps 和 agent 开发，是实验链路最值得优先补的公开 skill 库之一。 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |
+| Development Methodology | 方法论技能库 | 调试与验证 | `systematic-debugging`、`verification-before-completion`、`test-driven-development` 很适合实验回归与复现。 | [obra/superpowers](https://github.com/obra/superpowers) |
+| Everything Claude Code | 跨宿主技能生态 | research-first workflow | 适合继续补研究工程、自动化开发与工具组合类 skills。 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
 | `hf_model_evaluation` | HF Skill | 模型评测 | 适合统一跑模型评测、收集指标并沉淀评测报告。 | [huggingface/skills](https://github.com/huggingface/skills) |
 | `hf-llm-trainer` | HF Skill | 训练与微调 | 适合快速搭建训练、微调、资源估算与脚手架。 | [huggingface/skills](https://github.com/huggingface/skills) |
 | `hf_dataset_creator` | HF Skill | 数据集准备 | 适合做数据集草案、字段规划和 Hub 对接。 | [huggingface/skills](https://github.com/huggingface/skills) |
@@ -76,9 +79,11 @@
 | Jupyter MCP Server | Notebook MCP | 交互式实验 | 支持查看、编辑和执行 notebook，是实验链路里最关键的执行入口之一。 | [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) |
 | GitHub MCP Server | 代码协作 MCP | 仓库与 CI | 适合读取代码、Issue、PR、提交记录和 CI 状态。 | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
 | GitMCP | 仓库文档 MCP | 公共仓库阅读 | 适合快速查询开源 benchmark、README、配置与示例。 | [idosal/git-mcp](https://github.com/idosal/git-mcp) |
+| Hugging Face MCP Server | 模型与数据生态 MCP | 资产回查 | 适合把模型、数据集、space 和评测资产接回实验链路。 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) |
 | Optuna MCP Server | HPO MCP | 调参与结果分析 | 适合让 agent 发起 study、查看 trial、分析优化结果和可视化。 | [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) |
 | Prefect MCP Server | orchestration MCP | pipeline 观察与调试 | 适合读取 flow run、deployment、日志和运行状态。 | [PrefectHQ/prefect-mcp-server](https://github.com/PrefectHQ/prefect-mcp-server) |
 | MCP for ZenML | MLOps MCP | pipeline 与 artifact | 适合查看 pipeline run、step log、artifact 和触发新运行。 | [zenml-io/mcp-zenml](https://github.com/zenml-io/mcp-zenml) |
+| MCPAdapt | MCP 适配层 | 工具兼容 | 适合把现有 Python 工具或 API 快速适配到 MCP 生态。 | [grll/mcpadapt](https://github.com/grll/mcpadapt) |
 | Docker Hub MCP | 容器 MCP | 镜像与环境选择 | 适合为实验环境和 benchmark 容器选择基础镜像。 | [docker/hub-mcp](https://github.com/docker/hub-mcp) |
 | Kaggle MCP | 数据平台 MCP | benchmark 数据获取 | 适合补 Kaggle 竞赛与数据集入口。 | [arrismo/kaggle-mcp](https://github.com/arrismo/kaggle-mcp) |
 | Chart MCP Server | 可视化 MCP | 实验结果整理 | 适合把训练曲线、表格和对比结果快速转为图表。 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) |
@@ -89,6 +94,7 @@
 | --- | --- | --- | --- | --- |
 | 实验框架、追踪与复现工具详表 | 仓库内详表 | 框架总览 | 当前模块里工作流编排、实验追踪、环境复现和 notebook 执行的主归属页。 | [实验框架、追踪与复现工具详表](./实验框架、追踪与复现工具详表.md) |
 | RD-Agent | 研究开发代理 | 研究工程自动化 | 适合围绕研发与实验任务组织 agent 工作流。 | [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) |
+| CMBAgent | 科学发现 Agent | 实验设计与研究协作 | 适合把科学研究任务拆成协作式 agent 工作流并接入评测。 | [CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent) |
 | OpenHands Software Agent SDK | 代理开发框架 | 软件与实验代理 | 适合搭建能执行代码、工具和工作流的实验代理。 | [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk) |
 | AI-Scientist-v2 | 自动科研系统 | 提案到实验闭环 | 包含自动科研与实验链路的最新代表性系统之一。 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) |
 | AgentLaboratory | 多代理科研框架 | 多步骤研究流程 | 适合把假设、实验、审查与写作拆成协作环节。 | [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) |
@@ -123,6 +129,7 @@
 | MLE-bench | ML engineering benchmark | 端到端 ML 工程评估 | 专门测 AI 代理是否真能做 ML 工程任务。 | [OpenAI - MLE-bench](https://openai.com/index/mle-bench/) |
 | MLGym / MLR-Bench / FML-bench | AI/ML research benchmark | 研究任务评估 | 适合覆盖开放式机器学习研究、自动 ML 研究与完整研究链路评测。 | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym)、[chchenhui/mlrbench](https://github.com/chchenhui/mlrbench)、[qrzou/FML-bench](https://github.com/qrzou/FML-bench) |
 | Aviary / LAB-Bench | 科学 agent benchmark | 科学任务与 notebook 环境 | 适合评测文献检索、科学问答、notebook 执行和生物科学任务。 | [Future-House/aviary](https://github.com/Future-House/aviary)、[Future-House/LAB-Bench](https://github.com/Future-House/LAB-Bench) |
+| LiveDRBench / NewtonBench | deep research 与科学发现 benchmark | 适合补 long-horizon research、科学推理和自动发现类评测。 | [THUDM/LiveDRBench](https://github.com/THUDM/LiveDRBench)、[HKUST-KnowComp/NewtonBench](https://github.com/HKUST-KnowComp/NewtonBench) |
 | ToolSandbox / ML-Dev-Bench / OpenHands Benchmarks | tool-use 与 ML dev benchmark | 工具调用与开发任务 | 适合评测状态化工具调用、多轮任务、ML 开发能力和软件代理执行。 | [apple/ToolSandbox](https://github.com/apple/ToolSandbox)、[ml-dev-bench/ml-dev-bench](https://github.com/ml-dev-bench/ml-dev-bench)、[OpenHands/benchmarks](https://github.com/OpenHands/benchmarks) |
 | OpenCompass / lm-eval-harness / LightEval / HELM / Ragas | 通用评测框架 | LLM、RAG 与 agent eval | 适合建立通用大模型评测、RAG/agent 回归评测以及多后端 benchmark 执行体系。 | [open-compass/opencompass](https://github.com/open-compass/opencompass)、[EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)、[huggingface/lighteval](https://github.com/huggingface/lighteval)、[stanford-crfm/helm](https://github.com/stanford-crfm/helm)、[Ragas](https://github.com/explodinggradients/ragas) |
 | LiveCodeBench / BigCodeBench / DS-1000 | 代码与数据科学 benchmark | coding 与 data science eval | 适合评测代码生成、代码修复、真实函数调用和数据科学代码能力。 | [LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)、[bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench)、[xlang-ai/DS-1000](https://github.com/xlang-ai/DS-1000) |
@@ -162,7 +169,12 @@
 8. `PMLB / OpenML-CC18 / YAHPO Gym + Ray Tune / Optuna`
    适合做 tabular、HPO 和多保真搜索实验。
 
-## 八、仓库内延伸阅读
+## 八、如果这一页的 Skills / MCP 还不够
+
+- Skills 继续补：优先回看 [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md) 与 [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP 继续补：优先回看 [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md) 与 [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 九、仓库内延伸阅读
 
 - [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)
 - [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)

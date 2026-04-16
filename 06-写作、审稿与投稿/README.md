@@ -18,6 +18,7 @@
 - [97-模板与投稿/模板迁移与投稿](../97-模板与投稿/模板迁移与投稿.md)
 - [98-全局索引/写作与投稿索引](../98-全局索引/写作与投稿索引.md)
 - [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)
+- [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)
 - [92-MCP/写作协作与投稿MCP](../92-MCP/写作协作与投稿MCP.md)
 
 ## 一、相关 Skills
@@ -25,12 +26,15 @@
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |
 | --- | --- | --- | --- | --- |
 | 科研写作与文献Skills | 仓库内附录 | Skills 总览 | 当前仓库里写作、综述、审稿、基金、海报与投稿相关 Skills 的主归属页。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
+| OpenAI Skills | 官方技能库 | 文稿与代码协同 | 适合把文稿、补充材料、代码说明和审稿反馈并进统一工作流。 | [openai/skills](https://github.com/openai/skills) |
 | Claude Scientific Writer | 深研写作工具包 | research to paper | 覆盖 `research-lookup`、`peer-review`、`citation-management`、`venue-templates`、`research-grants` 等核心子技能。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | `academic-paper` | 学术论文写作 Skill | draft 与 revision | 适合把研究材料转换为结构化学术论文，并保留多轮修改。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | `academic-paper-reviewer` | 审稿 Skill | critique 与 review | 适合做 rubric 化、角色化、多视角审稿。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | `academic-pipeline` | 学术流程 Skill | write-review-revise | 适合把 research、write、integrity、review 和 revise 串成统一流程。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | `citation-management` | 引用管理 Skill | BibTeX 与 references | 适合管理 BibTeX、引用条目和参考文献一致性。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | `venue-templates` | venue 约束 Skill | 模板与格式要求 | 适合把不同 venue 的模板约束和写作规范纳入统一流程。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| paper-glance-skill | 单篇 critique Skill | reviewer-style 拆解 | 适合把单篇论文、相关工作或评审意见拆成结构化 critique。 | [CatVinci-Studio/paper-glance-skill](https://github.com/CatVinci-Studio/paper-glance-skill) |
+| NotebookLM Skill | 资料库问答 Skill | 长文材料回查 | 适合围绕项目资料包、旧稿件和 response 文档做来源约束问答。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
 | `hf-paper-publisher` | HF Skill | 发布与联动 | 适合模型、数据集、论文和 Hub 资产同步发布。 | [huggingface/skills](https://github.com/huggingface/skills) |
 | Anthropic 文档类 Skills | 官方文档 Skills | 文稿整理与交付 | `pdf`、`docx`、`pptx`、`xlsx`、`doc-coauthoring` 对论文、汇报和 response 文稿都很高频。 | [anthropics/skills](https://github.com/anthropics/skills) |
 
@@ -46,6 +50,7 @@
 | GitMCP | 文档型 MCP | 公共模板与 guide | 适合快速抓取模板仓库、README、指南和样例。 | [idosal/git-mcp](https://github.com/idosal/git-mcp) |
 | LaTeX MCP Server | 社区 MCP | LaTeX 工作流 | 适合围绕 LaTeX 工程做社区化实验接入。 | [Yeok-c/latex-mcp-server](https://github.com/Yeok-c/latex-mcp-server) |
 | markdown2pdf-mcp | 转换 MCP | Markdown to PDF | 适合把 response、supplement 或草稿快速转成 PDF。 | [tigranbs/markdown2pdf-mcp](https://github.com/tigranbs/markdown2pdf-mcp) |
+| MarkItDown | 文档预处理工具 | 评审附件解析 | 适合把审稿意见、Word 附件和 Office 材料转成可分析文本。 | [microsoft/markitdown](https://github.com/microsoft/markitdown) |
 
 ## 三、相关写作、审稿与修订工具
 
@@ -94,7 +99,12 @@
 4. `Auto-Resubmit + official template + arxiv-latex-cleaner + venue-specific checker`
    适合 resubmission、camera-ready 和提交前检查。
 
-## 七、仓库内延伸阅读
+## 七、如果这一页的 Skills / MCP 还不够
+
+- Skills 继续补：优先回看 [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) 与 [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP 继续补：优先回看 [92-MCP/写作协作与投稿MCP](../92-MCP/写作协作与投稿MCP.md) 与 [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 八、仓库内延伸阅读
 
 - [03-知识管理与证据沉淀](../03-知识管理与证据沉淀/README.md)
 - [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)

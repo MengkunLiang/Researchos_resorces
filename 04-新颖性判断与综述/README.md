@@ -13,6 +13,8 @@
 
 - [新颖性判断、综述与评审工具详表](./新颖性判断、综述与评审工具详表.md)
 - [新颖性、同行评审数据集与Benchmark](./新颖性、同行评审数据集与Benchmark.md)
+- [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)
+- [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)
 - [08-方向专题/科研新颖性与Idea生成](../08-方向专题/科研新颖性与Idea生成.md)
 - [94-Prompt与写作/系统综述与证据综合](../94-Prompt与写作/系统综述与证据综合.md)
 - [01-课题扫描与选题](../01-课题扫描与选题/README.md)
@@ -57,6 +59,7 @@
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |
 | --- | --- | --- | --- | --- |
 | 科研写作与文献Skills | 仓库内附录 | 总览 | 当前仓库里综述、审稿、批判阅读与写作相关 Skills 的主归属页。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
+| Skill发现平台与精品合集 | 仓库内附录 | Skills 扩容 | 适合继续补 novelty、review、evidence synthesis 相关 skill 仓库。 | [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) |
 | `literature-review` | 子技能 | 相关工作归并 | 适合把多篇论文归并成方法脉络、差异点和综述提纲。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | `peer-review` | 子技能 | reviewer-style critique | 适合生成结构化评审意见和主要质疑点。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | `scientific-critical-thinking` | 子技能 | 论证拆解 | 适合聚焦逻辑链、证据充分性和结论外推边界。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
@@ -73,6 +76,7 @@
 | 资源 | 类型 | 适合环节 | 简述 | 链接 |
 | --- | --- | --- | --- | --- |
 | 文献检索与知识库MCP | 仓库内附录 | MCP 总览 | 当前仓库里文献检索、图谱分析和评审平台相关 MCP 的主归属页。 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
+| MCP标准与发现平台 | 仓库内附录 | MCP 扩容 | 适合继续找 review、web search、知识库和平台类 MCP。 | [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
 | OpenReview MCP | 投稿与评审 MCP | reviewer 语境 | 适合追踪 review、rebuttal、顶会热点和审稿脉络。 | [openreview/openreview-mcp](https://github.com/openreview/openreview-mcp) |
 | OpenAlex MCP | 学术图谱 MCP | research landscape | 适合做作者、主题、机构和引文网络分析。 | [hbiaou/openalex-mcp](https://github.com/hbiaou/openalex-mcp) |
 | OpenAlex Research MCP | landscape MCP | gap analysis | 更适合做 trend analysis、citation analysis 和 research landscaping。 | [oksure/openalex-research-mcp](https://github.com/oksure/openalex-research-mcp) |
@@ -156,7 +160,12 @@
 8. `Elicit / Consensus / scite / PaperQA2`
    适合做 evidence synthesis、citation context 和证据核验。
 
-## 七、仓库内延伸阅读
+## 七、如果这一页的 Skills / MCP 还不够
+
+- Skills 继续补：优先回看 [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) 与 [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP 继续补：优先回看 [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) 与 [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 八、仓库内延伸阅读
 
 - [01-课题扫描与选题](../01-课题扫描与选题/README.md)
 - [02-文献检索与单篇精读](../02-文献检索与单篇精读/README.md)

@@ -13,6 +13,7 @@
 
 - [知识管理工具、MCP与知识载体详表](./知识管理工具、MCP与知识载体详表.md)
 - [95-文献检索与知识管理/知识管理与引用](../95-文献检索与知识管理/知识管理与引用.md)
+- [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)
 - [02-文献检索与单篇精读](../02-文献检索与单篇精读/README.md)
 - [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)
 
@@ -22,7 +23,9 @@
 | --- | --- | --- | --- | --- |
 | 科研写作与文献Skills | 仓库内附录 | Skills 总览 | 当前仓库里阅读、综述、写作与知识沉淀相关 Skills 的主归属页。 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) |
 | NotebookLM Skill | 知识库技能 | 项目级问答 | 适合在已有资料库基础上做 source-grounded 问答和复查。 | [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) |
+| `citation-management` | 子技能 | 引用与证据管理 | 适合把 Bib、引用键和 references 一致性纳入长期资产管理。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
 | Claude Scientific Writer | 写作与深研技能库 | 引用与证据资产 | 其中 `citation-management`、`literature-review`、`research-lookup` 对长期知识沉淀很有帮助。 | [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| `academic-pipeline` | 子技能 | 项目资产贯通 | 适合把检索、精读、写作、审稿和修订沉成统一项目资产链。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | Academic Research Skills | 学术流程技能库 | 项目资产贯通 | `academic-pipeline` 适合把检索、写作、评审和修订产物串成完整学术资产链。 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
 | Anthropic Skills | 官方技能库 | 附件资料处理 | `pdf`、`docx`、`pptx`、`xlsx` 适合处理文档、附录和资料包。 | [anthropics/skills](https://github.com/anthropics/skills) |
 | OpenAI Skills | 官方技能库 | 代码与文档协同 | 适合把代码、结果、文档和说明放在统一工作流里。 | [openai/skills](https://github.com/openai/skills) |
@@ -33,6 +36,7 @@
 | --- | --- | --- | --- | --- |
 | 文献检索与知识库MCP | 仓库内附录 | MCP 总览 | 当前仓库里文献库、知识库和资料接入类 MCP 的主归属页。 | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) |
 | Zotero MCP | 文献库 MCP | 私有文库接入 | 适合读取条目、笔记、Bib 和附件，连接精读结果与文献库。 | [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) |
+| Academic RAG MCP | 学术问答 MCP | 证据回查 | 适合围绕项目论文池做来源约束问答和多篇证据整合。 | [Jackela/mcp-academic-rag-server](https://github.com/Jackela/mcp-academic-rag-server) |
 | Notion MCP Server | 笔记与任务 MCP | 协作知识页 | 适合研究计划、会议纪要、项目页与待办任务。 | [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) |
 | GitHub MCP Server | 代码与项目 MCP | 代码文档关联 | 适合连接 Issue、PR、实验日志、release 和写作资产。 | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
 | Obsidian MCP Server | 本地知识库 MCP | 双链笔记 | 适合把本地 Markdown 知识库接入问答和自动整理流程。 | [MarkusPfundstein/obsidian-mcp-server](https://github.com/MarkusPfundstein/obsidian-mcp-server) |
@@ -75,7 +79,12 @@
 4. `Manubot / Zettlr / Quarto`
    适合作为面向公开稿件与长期维护的写作出口。
 
-## 六、仓库内延伸阅读
+## 六、如果这一页的 Skills / MCP 还不够
+
+- Skills 继续补：优先回看 [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md) 与 [91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md)。
+- MCP 继续补：优先回看 [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md) 与 [92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md)。
+
+## 七、仓库内延伸阅读
 
 - [02-文献检索与单篇精读](../02-文献检索与单篇精读/README.md)
 - [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)

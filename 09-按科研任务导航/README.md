@@ -110,3 +110,14 @@
   适合按研究方向继续深挖 AI/ML、data mining、computational design science 和开放创新资源。
 - [98-全局索引/外部导航与合集](../98-全局索引/外部导航与合集.md)
   适合继续扫外部公开合集并补库。
+
+## 八、每一步继续补 Skills / MCP 时优先回查
+
+| 任务阶段 | Skills 优先回查 | MCP 优先回查 |
+| --- | --- | --- |
+| 课题扫描与选题 | [91-Skills/科研向Skills合集](../91-Skills/科研向Skills合集.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
+| 文献检索与单篇精读 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
+| 知识管理与证据沉淀 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
+| 新颖性判断与综述 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/文献检索与知识库MCP](../92-MCP/文献检索与知识库MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
+| 实验执行、复现与评测 | [91-Skills/科研工程与实验Skills](../91-Skills/科研工程与实验Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/实验执行与数据工程MCP](../92-MCP/实验执行与数据工程MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
+| 写作、审稿与投稿 | [91-Skills/科研写作与文献Skills](../91-Skills/科研写作与文献Skills.md)、[91-Skills/Skill发现平台与精品合集](../91-Skills/Skill发现平台与精品合集.md) | [92-MCP/写作协作与投稿MCP](../92-MCP/写作协作与投稿MCP.md)、[92-MCP/MCP标准与发现平台](../92-MCP/MCP标准与发现平台.md) |
