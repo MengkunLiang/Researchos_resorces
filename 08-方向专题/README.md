@@ -11,6 +11,7 @@
 
 ## 推荐先看
 
+- [98-全局索引/方向专题索引](../98-全局索引/方向专题索引.md)
 - [AI-ML-DataMining资源](./AI-ML-DataMining资源.md)
 - [Tabular-AutoML与HPO](./Tabular-AutoML与HPO.md)
 - [Graph-Retrieval-Recsys与DataMining](./Graph-Retrieval-Recsys与DataMining.md)
@@ -58,6 +59,8 @@
 
 ## 四、仓库内延伸阅读
 
+- [98-全局索引/方向专题索引](../98-全局索引/方向专题索引.md)
+- [98-全局索引/任务专题对照索引](../98-全局索引/任务专题对照索引.md)
 - [04-新颖性判断与综述](../04-新颖性判断与综述/README.md)
 - [05-实验执行、复现与评测](../05-实验执行、复现与评测/README.md)
 - [06-写作、审稿与投稿](../06-写作、审稿与投稿/README.md)
